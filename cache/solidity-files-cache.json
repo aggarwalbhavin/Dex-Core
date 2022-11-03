@@ -1,0 +1,513 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/getInit.sol": {
+      "lastModificationDate": 1657798717843,
+      "contentHash": "f430affbf119d98ae8954f95c25ed6cb",
+      "sourceName": "contracts/getInit.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SaitaSwapPair.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "CalHash"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/SaitaSwapPair.sol": {
+      "lastModificationDate": 1657778157751,
+      "contentHash": "3b5577ae41e5d9f329e84f9392dca15b",
+      "sourceName": "contracts/SaitaSwapPair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/ISaitaSwapPair.sol",
+        "./SaitaSwapERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/ISaitaSwapFactory.sol",
+        "./interfaces/ISaitaSwapCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SaitaSwapPair"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/interfaces/ISaitaSwapPair.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "c8d73b7a54a2e35ba26962f29368c1a7",
+      "sourceName": "contracts/interfaces/ISaitaSwapPair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "ISaitaSwapPair"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/SaitaSwapERC20.sol": {
+      "lastModificationDate": 1658119514141,
+      "contentHash": "38de863138739c31ced46e1ca09eec31",
+      "sourceName": "contracts/SaitaSwapERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/ISaitaSwapERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SaitaSwapERC20"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "bee6c1959728d5d42c14151076cebd83",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "2a703244e9f645c6fb297a983ce7c9c4",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1657778157751,
+      "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/interfaces/ISaitaSwapFactory.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "da19b1f90b85d3b433cd06b0d27a6b05",
+      "sourceName": "contracts/interfaces/ISaitaSwapFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "ISaitaSwapFactory"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/interfaces/ISaitaSwapCallee.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "98b44ee4691d1676f3e8a676fbc12f2a",
+      "sourceName": "contracts/interfaces/ISaitaSwapCallee.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "ISaitaSwapCallee"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/interfaces/ISaitaSwapERC20.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "863bb608280a24c5d8840d597afa6925",
+      "sourceName": "contracts/interfaces/ISaitaSwapERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "ISaitaSwapERC20"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "a65356c329efeffba75210664f5df3cd",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/SaitaSwapFactory.sol": {
+      "lastModificationDate": 1657778157751,
+      "contentHash": "357452b8876f75aeaf29340ee179ea8d",
+      "sourceName": "contracts/SaitaSwapFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/ISaitaSwapFactory.sol",
+        "./SaitaSwapPair.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SaitaSwapFactory"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1657778157755,
+      "contentHash": "c642b8104ff283e4be9495448e61448c",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../SaitaSwapERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/user/Desktop/Swap-Core-CORE/Swap-Core-CORE/Swap-Core-master/contracts/Migration.sol": {
+      "lastModificationDate": 1657778157751,
+      "contentHash": "6f3dc9936ec2cff1666c76993e7d6531",
+      "sourceName": "contracts/Migration.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.25 <0.7.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    }
+  }
+}
